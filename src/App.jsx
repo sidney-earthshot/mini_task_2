@@ -32,19 +32,21 @@ function App() {
         </div>
 
         {/* divider */}
-        <div className="h-[300px] bg-gray-700 w-[3px]"></div>
-        {/* <img
-          src={`https://plus.unsplash.com/premium_photo-1683836722388-8643468c327d?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}
-          alt="world"
-          className="w-[450px] h-[150px] absolute mt-[450px] rounded-lg"
-        />
-
-        <p className="text-left text-white text-3xl w-[450px] pl-5 absolute mt-[510px]">By country.</p> */}
+        <div className="h-[100px] bg-gray-700 w-[3px]"></div>
         <div
           className={`bg-[url("https://plus.unsplash.com/premium_photo-1683836722388-8643468c327d?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")] w-[450px] h-[110px] bg-cover flex items-center rounded-lg`}
         >
           <p className="text-white text-3xl pl-6 font-bold">By country.</p>
         </div>
+
+        {/* divider */}
+        <div className="h-[150px] bg-gray-700 w-[3px]"></div>
+        {/* div to adjust the intersection point of all 3 lines */}
+        <div className="flex mt-[-50px]">
+          <div className="h-[5px] bg-sky-700 w-[400px] -skew-y-[10deg] "></div>
+          <div className="h-[5px] bg-sky-700 w-[400px] skew-y-[10deg] "></div>
+        </div>
+        <div className="h-[100px] bg-gray-700 w-[1000px] mt-[20px]"></div>
       </div>
     </>
   );
